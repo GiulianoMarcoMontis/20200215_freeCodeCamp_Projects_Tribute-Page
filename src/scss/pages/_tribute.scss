@@ -1,0 +1,94 @@
+/* /////////////////////// Spacing & Colors & Layout */
+
+body {
+  background-color: $bgco-light;
+
+  #main {
+    min-width: 30rem;
+    max-width: 102.4rem;
+    margin: auto;
+    padding: $spacing-regular;
+    background-color: $bgco-dark;
+
+    hr {
+      width: 80%;
+      border-top: none;
+      border-bottom: 0.1rem dashed $bgco-light;
+      margin: auto;
+    }
+
+    h1 {
+      margin-bottom: $spacing-regular;
+    }
+
+    h2 {
+      margin-top: $spacing-regular;
+    }
+
+    // <!-- User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
+    // <!-- User Story #9: The img element should be centered within its parent element. -->
+    #img-div {
+      padding: $spacing-regular;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #image {
+        max-width: 100%;
+        height: auto;
+        border: 0.2rem solid $bgco-light;
+      }
+      #img-caption {
+        background-color: $bgco-light;
+        padding: $spacing-small;
+        align-self: stretch;
+      }
+    }
+
+    #tribute-info {
+      width: 80%;
+      margin: auto;
+
+      h3 {
+        margin: $spacing-big;
+      }
+      hr {
+        width: 40%;
+        margin-bottom: $spacing-big;
+      }
+
+      .life__items {
+        list-style-type: decimal;
+
+        .life__item {
+          padding-bottom: $spacing-small;
+        }
+      }
+    }
+
+    #tribute-link {
+      margin: $spacing-big auto;
+      background-color: $bgco-light;
+      padding: $spacing-big;
+    }
+
+    .discography-info {
+      width: 80%;
+      margin: auto;
+
+      h3 {
+        margin: $spacing-big;
+      }
+      hr {
+        width: 60%;
+        margin-bottom: $spacing-big;
+      }
+      .disco__items {
+        .disco__item {
+          padding-bottom: $spacing-small;
+        }
+      }
+    }
+  }
+}

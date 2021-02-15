@@ -1,0 +1,133 @@
+/* /////////////////////// Typography */
+
+main {
+  font-family: $font-family-standard;
+  font-weight: 300;
+  font-size: 2rem;
+
+  h1 {
+    font-family: $font-family-title;
+    font-weight: 400;
+    font-size: 15rem;
+    color: $text-light;
+    text-align: center;
+
+    text-shadow: 0.1rem 0.1rem 1rem $bgco-light;
+
+    &:hover {
+      color: $text-special;
+    }
+  }
+
+  h2 {
+    font-family: $font-family-standard;
+    font-weight: 400;
+    font-size: 5rem;
+    color: $text-light;
+    text-align: center;
+  }
+
+  #img-caption {
+    font-family: $font-family-standard;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: $text-dark;
+    text-align: center;
+  }
+
+  #tribute-info {
+    font-family: $font-family-standard;
+    font-weight: 300;
+    font-size: 2rem;
+    color: $text-light;
+
+    h3 {
+      font-family: $font-family-title;
+      font-weight: 400;
+      font-size: 3rem;
+      color: $text-light;
+      text-align: center;
+
+      &:hover {
+        color: $text-special;
+      }
+    }
+  }
+
+  #tribute-link {
+    color: $text-dark;
+
+    a {
+      text-decoration: none;
+      color: $text-special;
+
+      &:hover {
+        color: $text-dark;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .backToTop {
+    font-family: $font-family-title;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: $text-light;
+
+      &:hover {
+        color: $text-special;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .discography-info {
+    h3 {
+      font-family: $font-family-title;
+      font-weight: 400;
+      font-size: 3rem;
+      color: $text-light;
+      text-align: center;
+
+      &:hover {
+        color: $text-special;
+      }
+    }
+
+    .disco__items {
+      font-family: $font-family-standard;
+      font-weight: 300;
+      font-size: 2rem;
+      color: $text-light;
+      text-align: center;
+
+      .disco__item {
+        list-style-type: none;
+
+        &:hover {
+          color: $text-special;
+          font-weight: 700;
+        }
+        a {
+          text-decoration: none;
+
+          &:link,
+          &:visited {
+            color: $text-light;
+          }
+          &:hover {
+            text-decoration: underline;
+            text-decoration-color: $text-special;
+          }
+        }
+      }
+    }
+  }
+}
