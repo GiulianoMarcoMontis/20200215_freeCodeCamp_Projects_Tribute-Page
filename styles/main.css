@@ -1,0 +1,205 @@
+/* ///////////////////// resets and decimal rem */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* /////////////////////// Typography */
+main {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+main h1 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 15rem;
+  color: #f0f0f0;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 1rem #f0f0f0;
+}
+main h1:hover {
+  color: #551a8b;
+}
+main h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  color: #f0f0f0;
+  text-align: center;
+}
+main #img-caption {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #0c0c0c;
+  text-align: center;
+}
+main #tribute-info {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #f0f0f0;
+}
+main #tribute-info h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #f0f0f0;
+  text-align: center;
+}
+main #tribute-info h3:hover {
+  color: #551a8b;
+}
+main #tribute-link {
+  color: #0c0c0c;
+}
+main #tribute-link a {
+  text-decoration: none;
+  color: #551a8b;
+}
+main #tribute-link a:hover {
+  color: #0c0c0c;
+  text-decoration: underline;
+}
+main .backToTop {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+main .backToTop a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+main .backToTop a:hover {
+  color: #551a8b;
+  text-decoration: underline;
+}
+main .discography-info h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #f0f0f0;
+  text-align: center;
+}
+main .discography-info h3:hover {
+  color: #551a8b;
+}
+main .discography-info .disco__items {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #f0f0f0;
+  text-align: center;
+}
+main .discography-info .disco__items .disco__item {
+  list-style-type: none;
+}
+main .discography-info .disco__items .disco__item:hover {
+  color: #551a8b;
+  font-weight: 700;
+}
+main .discography-info .disco__items .disco__item a {
+  text-decoration: none;
+}
+main .discography-info .disco__items .disco__item a:link, main .discography-info .disco__items .disco__item a:visited {
+  color: #f0f0f0;
+}
+main .discography-info .disco__items .disco__item a:hover {
+  text-decoration: underline;
+  text-decoration-color: #551a8b;
+}
+
+/* /////////////////////// Spacing & Colors & Layout */
+body {
+  background-color: #f0f0f0;
+}
+body #main {
+  min-width: 30rem;
+  max-width: 102.4rem;
+  margin: auto;
+  padding: 2rem;
+  background-color: #0c0c0c;
+}
+body #main hr {
+  width: 80%;
+  border-top: none;
+  border-bottom: 0.1rem dashed #f0f0f0;
+  margin: auto;
+}
+body #main h1 {
+  margin-bottom: 2rem;
+}
+body #main h2 {
+  margin-top: 2rem;
+}
+body #main #img-div {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #main #img-div #image {
+  max-width: 100%;
+  height: auto;
+  border: 0.2rem solid #f0f0f0;
+}
+body #main #img-div #img-caption {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  align-self: stretch;
+}
+body #main #tribute-info {
+  width: 80%;
+  margin: auto;
+}
+body #main #tribute-info h3 {
+  margin: 4rem;
+}
+body #main #tribute-info hr {
+  width: 40%;
+  margin-bottom: 4rem;
+}
+body #main #tribute-info .life__items {
+  list-style-type: decimal;
+}
+body #main #tribute-info .life__items .life__item {
+  padding-bottom: 1rem;
+}
+body #main #tribute-link {
+  margin: 4rem auto;
+  background-color: #f0f0f0;
+  padding: 4rem;
+}
+body #main .discography-info {
+  width: 80%;
+  margin: auto;
+}
+body #main .discography-info h3 {
+  margin: 4rem;
+}
+body #main .discography-info hr {
+  width: 60%;
+  margin-bottom: 4rem;
+}
+body #main .discography-info .disco__items .disco__item {
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
